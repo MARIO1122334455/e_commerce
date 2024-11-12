@@ -19,7 +19,7 @@ class Ecommerce extends StatelessWidget {
       designSize: const Size(430, 032),
       minTextAdapt: true,
       splitScreenMode: true,
-      builder: (context, child) { 
+      builder: (context, child) {
         return const MaterialApp(
           debugShowCheckedModeBanner: false,
           onGenerateRoute: RouteGenerator.getRoute,
